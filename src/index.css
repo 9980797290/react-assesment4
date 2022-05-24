@@ -1,0 +1,43 @@
+*{
+background-color: burlywood;
+
+
+}
+
+
+.link0{
+position:absolute;
+left:100px;
+
+}
+.link1 {
+  position: absolute;
+  left:599px;
+
+}
+.link{
+  position: absolute;
+  left:1000px;
+}
+.Home {
+  text-align: center;
+  position: absolute;
+  top:200px;
+  left:599px;
+  font-size: 30px;
+}
+.Contact {
+  text-align: center;
+  position: absolute;
+  top:200px;
+  left:599px;
+}
+
+.student{
+  position: absolute;
+  top:200px;
+  left:570px;
+  width:100px;
+  height:100px;
+
+}
