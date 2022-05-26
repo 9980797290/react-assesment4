@@ -1,0 +1,86 @@
+*{
+    color: rgb(16, 15, 15);
+    background-color: rgb(227, 221, 221);
+    font-family: 'Montserrat', sans-serif;
+}
+#navBar{
+    display: flex;
+    justify-content: space-around;
+
+}
+hr{
+    margin:0px
+}
+.btn-outline-success{
+    color: rgb(3, 3, 3);
+    background-color: white;
+}
+.btn-outline-success:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: aliceblue;
+    letter-spacing: 5px;
+    padding: 2px 5px 2px 5px;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
+.the{
+    font-size: 4vw;
+    transform: rotate(90deg);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding: 5px;
+    background-color: black;
+}
+.siren{
+    font-size: 4vw;
+}
+.contentPage{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card{
+    height: 30vw;
+    width: 25vw;
+    margin: 2vw;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.card:hover{
+    box-shadow:  0px 0px 15px 5px rgba(255, 255, 255, 0.756);
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-top: 0vw;
+}
+@media(max-width:720px){
+    .contentPage{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .card{
+        height: 60vw;
+        width: 45vw;
+        margin: 2vw;
+        overflow: hidden;
+    }
+}
+@media(max-width:480px){
+    .contentPage{
+        display: block;
+    }
+    .card{
+        height: 90vw;
+        width: 90vw;
+        margin: 4vw;
+        overflow: hidden;
+    }
+}
